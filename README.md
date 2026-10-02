@@ -21,6 +21,16 @@ The project follows the **Medallion Architecture (Bronze, Silver, and Gold)** to
 
 ## 🏗️ Data Architecture
 
+The project follows a layered Data Warehouse architecture based on the Medallion Architecture.
+
+<p align="center">
+  <img src="Images/data-architecture.png" alt="Gravity Bookstore Data Warehouse Architecture" width="900"/>
+</p>
+
+The architecture follows this flow:
+
+CSV Files → Python & Pandas → Bronze → Silver → Gold → Power BI
+
 The project uses a layered data warehouse architecture based on the Medallion Architecture.
 
 ```text
@@ -308,25 +318,22 @@ This separation makes the pipeline easier to understand, maintain, troubleshoot,
 
 ---
 
-## 📈 Power BI Dashboard
+## 📊 Power BI Dashboard
 
-The final stage of the project is a Power BI dashboard that presents key bookstore business metrics.
+The final stage of the project is a Power BI dashboard that provides an overview of bookstore sales performance.
 
-The dashboard turns the prepared datasets into visual insights that help users explore business performance.
+### 🎯 Key Performance Indicators
 
-### 🎯 Key Performance Indicators (KPIs)
-
-- **Total Sales:** Total sales amount represented by the dashboard's sales data.
-- **Books Sold:** Total quantity of books sold.
-- **Total Transactions:** Number of transactions represented in the dataset.
-- **Average Book Price:** Average book price based on the selected data.
+- **Total Sales**
+- **Books Sold**
+- **Total Transactions**
+- **Average Book Price**
 
 ### 🖼️ Dashboard Preview
 
-Add the dashboard image to the repository and update the path below to match the actual image filename.
-
-![Gravity Book Store Sales Dashboard](Dashboard_Image/Gravity-Book-Store-Sales-Dashboard.png)
-
+<p align="center">
+  <img src="Images/dashboard.png" alt="Gravity Bookstore Sales Dashboard" width="1000"/>
+</p>
 ---
 
 ## 📁 Project Structure
