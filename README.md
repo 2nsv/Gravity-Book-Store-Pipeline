@@ -24,7 +24,7 @@ The project follows the **Medallion Architecture (Bronze, Silver, and Gold)** to
 The project follows a layered Data Warehouse architecture based on the Medallion Architecture.
 
 <p align="center">
-  <img src="Images/data-architecture.png" alt="Gravity Bookstore Data Warehouse Architecture" width="900"/>
+  <img src="Images/Data-Architecture.png" alt="Gravity Bookstore Data Warehouse Architecture" width="900"/>
 </p>
 
 The architecture follows this flow:
